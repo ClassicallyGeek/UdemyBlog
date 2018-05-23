@@ -1,25 +1,11 @@
-# ReduxSimpleStarter
+# Udemy Blog from Modern React with Redux
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+# Covered Topics
+* react-router-dom: BrowserRouter, Switch, Route, Link
+* Made use of router params (id) for identifying posts.
+* Programmatic navigation with the Router (this.props.history)
+* Callbacks to action creators
+* leveraged ownProps system with mapStateToProps for "intermediate calculations"
+* used mapKeys helper in reducer to convert state value from array to object made state management easier.
